@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.App {
+  width: 1000px;
+  height: 100%;
+  margin: 20px auto 0;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 170px;
+}
+
+.bar {
+  width: 150px;
+  margin: 10px 0;
+}
+
+.container {
+  background: #e0dede;
+  width: 100%;
+  min-height: 325px;
+  padding: 20px 40px;
+  border: 3px solid #ccc;
+  border-radius: 12px;
+}
+
+.style-title {
+  font-size: 20px;
+}
+
+textarea {
+  font-size: 15px;
+  line-height: 1;
+  padding: 30px;
+  width: 100%;
+  resize: none;
+}
+
+.color-btn {
+  margin-top: 7px;
+}
+
+.select {
+  background: #fff;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.color-btn {
+  width: 450px;
+  margin: 0;
+}
+
+.color-btn button {
+  width: 200px;
+  height: 50px;
+  background-color: gray;
+}
+
+.color-btn button:hover {
+  background-color: darkgrey;
+}
+
+.bold-text {
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+
+.change-color {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: -100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 180px;
+  height: 180px;
+}
+
+.color-block {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.table-wrapper .input {
+  width: 80%;
+}
+
+.table-wrapper span {
+  font-size: 30px;
+}
+
+.border-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-style {
+  width: 30%;
+}
+
+.border-style span {
+  font-size: 20px;
+}
+
+.border-margin {
+  margin-top: 30px;
+}
+
+.border-input {
+  width: 120px;
+}
